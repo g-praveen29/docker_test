@@ -1,5 +1,5 @@
 # Use an official OpenJDK image as base
-FROM openjdk:17
+FROM openjdk:21
 # Set the working directory inside the container
 WORKDIR /app
 # Copy the Java file to the container
