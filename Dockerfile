@@ -1,5 +1,5 @@
 # Use an official OpenJDK image as base
-FROM openjdk:17
+FROM eclipse-temurin:21-jdk 
 # Set the working directory inside the container
 WORKDIR /app
 # Copy the Java file to the container
@@ -10,3 +10,4 @@ RUN javac Hello.java
 # CMD ["java", "Hello"]
 # Set entrypoint and allow arguments
 ENTRYPOINT ["java", "Hello"]
+
