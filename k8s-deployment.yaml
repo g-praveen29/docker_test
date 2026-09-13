@@ -13,6 +13,6 @@ spec:
         app: hello-java
     spec:
       containers:
-        - name: hello-java
-          image: praveen2929/hello-java-app
+        - name: hello-java-container
+          image: praveen2929/hello-java-app:latest
           args: ["Praveen"]
